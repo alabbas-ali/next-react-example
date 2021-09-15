@@ -1,7 +1,13 @@
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+/**
+ * 
+ * @param Component 
+ * @param pageProps
+ * @returns Component
+ */
+function NextReactExampleApp({ Component, pageProps }) {
+	return <Component {...pageProps} />
 }
 
-export default MyApp
+export default NextReactExampleApp
